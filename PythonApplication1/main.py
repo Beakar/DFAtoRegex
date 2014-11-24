@@ -118,6 +118,7 @@ def changeAcceptStates(option):
 
 def DFAToRegex():
     """converts the dfa object into a regex string/"""
+    myDFA.convertToRegex();
     return;	
 "end functions"
 
